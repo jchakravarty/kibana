@@ -1402,7 +1402,6 @@
 
 "@elastic/datemath@link:packages/elastic-datemath":
   version "0.0.0"
-  uid ""
 
 "@elastic/elasticsearch@7.10.0-rc.1":
   version "7.10.0-rc.1"
@@ -1426,7 +1425,6 @@
 
 "@elastic/eslint-config-kibana@link:packages/elastic-eslint-config-kibana":
   version "0.0.0"
-  uid ""
 
 "@elastic/eslint-plugin-eui@0.0.2":
   version "0.0.2"
@@ -1545,7 +1543,6 @@
 
 "@elastic/safer-lodash-set@link:packages/elastic-safer-lodash-set":
   version "0.0.0"
-  uid ""
 
 "@elastic/ui-ace@0.2.3":
   version "0.2.3"
@@ -2609,127 +2606,96 @@
 
 "@kbn/ace@link:packages/kbn-ace":
   version "0.0.0"
-  uid ""
 
 "@kbn/analytics@link:packages/kbn-analytics":
   version "0.0.0"
-  uid ""
 
 "@kbn/apm-config-loader@link:packages/kbn-apm-config-loader":
   version "0.0.0"
-  uid ""
 
 "@kbn/babel-code-parser@link:packages/kbn-babel-code-parser":
   version "0.0.0"
-  uid ""
 
 "@kbn/babel-preset@link:packages/kbn-babel-preset":
   version "0.0.0"
-  uid ""
 
 "@kbn/config-schema@link:packages/kbn-config-schema":
   version "0.0.0"
-  uid ""
 
 "@kbn/config@link:packages/kbn-config":
   version "0.0.0"
-  uid ""
 
 "@kbn/dev-utils@link:packages/kbn-dev-utils":
   version "0.0.0"
-  uid ""
 
 "@kbn/es-archiver@link:packages/kbn-es-archiver":
   version "0.0.0"
-  uid ""
 
 "@kbn/es@link:packages/kbn-es":
   version "0.0.0"
-  uid ""
 
 "@kbn/eslint-import-resolver-kibana@link:packages/kbn-eslint-import-resolver-kibana":
   version "0.0.0"
-  uid ""
 
 "@kbn/eslint-plugin-eslint@link:packages/kbn-eslint-plugin-eslint":
   version "0.0.0"
-  uid ""
 
 "@kbn/expect@link:packages/kbn-expect":
   version "0.0.0"
-  uid ""
 
 "@kbn/i18n@link:packages/kbn-i18n":
   version "0.0.0"
-  uid ""
 
 "@kbn/interpreter@link:packages/kbn-interpreter":
   version "0.0.0"
-  uid ""
 
 "@kbn/logging@link:packages/kbn-logging":
   version "0.0.0"
-  uid ""
 
 "@kbn/monaco@link:packages/kbn-monaco":
   version "0.0.0"
-  uid ""
 
 "@kbn/optimizer@link:packages/kbn-optimizer":
   version "0.0.0"
-  uid ""
 
 "@kbn/plugin-generator@link:packages/kbn-plugin-generator":
   version "0.0.0"
-  uid ""
 
 "@kbn/plugin-helpers@link:packages/kbn-plugin-helpers":
   version "0.0.0"
-  uid ""
 
 "@kbn/pm@link:packages/kbn-pm":
   version "0.0.0"
-  uid ""
 
 "@kbn/release-notes@link:packages/kbn-release-notes":
   version "0.0.0"
-  uid ""
 
 "@kbn/std@link:packages/kbn-std":
   version "0.0.0"
-  uid ""
 
 "@kbn/storybook@link:packages/kbn-storybook":
   version "0.0.0"
-  uid ""
 
 "@kbn/telemetry-tools@link:packages/kbn-telemetry-tools":
   version "0.0.0"
-  uid ""
 
 "@kbn/test-subj-selector@link:packages/kbn-test-subj-selector":
   version "0.0.0"
-  uid ""
 
 "@kbn/test@link:packages/kbn-test":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-framework@link:packages/kbn-ui-framework":
   version "0.0.0"
-  uid ""
 
 "@kbn/ui-shared-deps@link:packages/kbn-ui-shared-deps":
   version "0.0.0"
-  uid ""
 
 "@kbn/utility-types@link:packages/kbn-utility-types":
   version "0.0.0"
-  uid ""
 
 "@kbn/utils@link:packages/kbn-utils":
   version "0.0.0"
-  uid ""
 
 "@mapbox/extent@0.4.0":
   version "0.4.0"
@@ -7564,6 +7530,13 @@ axios@^0.19.0, axios@^0.19.2:
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 axobject-query@^2.0.2:
   version "2.0.2"
@@ -13888,12 +13861,17 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
-follow-redirects@1.9.0, follow-redirects@^1.0.0:
+follow-redirects@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
   integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
   dependencies:
     debug "^3.0.0"
+
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 font-awesome@4.7.0:
   version "4.7.0"
