@@ -755,7 +755,7 @@
     "oboe": "^2.1.4",
     "ora": "^4.0.4",
     "p-limit": "^3.0.1",
-    "parse-link-header": "^1.0.1",
+    "parse-link-header": "^2.0.0",
     "pirates": "^4.0.1",
     "pixelmatch": "^5.1.0",
     "pkg-up": "^2.0.0",
