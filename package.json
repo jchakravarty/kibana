@@ -709,7 +709,7 @@
     "jimp": "^0.14.0",
     "js-levenshtein": "^1.1.6",
     "js-search": "^1.4.3",
-    "jsdom": "13.1.0",
+    "jsdom": "16.5.0",
     "json-stringify-pretty-compact": "1.2.0",
     "json5": "^1.0.1",
     "jsondiffpatch": "0.4.1",
